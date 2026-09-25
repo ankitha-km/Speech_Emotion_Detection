@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Temporary files
+temp_upload.wav
+
+# Model files
+models/*.keras
+models/*.h5
+models/*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
