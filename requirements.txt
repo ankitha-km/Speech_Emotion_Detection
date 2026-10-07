@@ -2,3 +2,12 @@ streamlit
 torch
 librosa
 numpy
+streamlit
+ numpy
+  librosa 
+matplotlib
+imageio-ffmpeg
+ tensorflow
+  torch
+   transformers
+    scikit-learn

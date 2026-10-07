@@ -7,9 +7,6 @@ venv/
 # Temporary files
 temp_upload.wav
 
-# Model files
-models/*.keras
-models/*.h5
 models/*.pt
 
 # Jupyter
@@ -17,3 +14,12 @@ models/*.pt
 
 # Streamlit
 .streamlit/secrets.toml
+
+@"
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+"@ | Out-File -Encoding utf8 .gitignore
